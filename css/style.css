@@ -9,8 +9,10 @@ body {
 }
 
 .calculator {
-  position: relative;
-  top: 50px;
+  position: absolute;
+  top: 50p%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: auto;
   width: 338px;
   height: 500px;
