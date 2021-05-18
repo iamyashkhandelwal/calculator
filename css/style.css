@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.pond5.com/math-looping-animated-background-footage-000984568_prevstill.jpeg);
+  background-size: cover;
+}
+
+.calculator {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* top: 50px; */
+  margin: auto;
+  width: 338px;
+  height: 500px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 0 50px black;
+  border-radius: 3px;
+}
+
+.display {
+  box-sizing: border-box;
+  color: white;
+  text-align: right;
+  width: 320px;
+  height: 80px;
+  margin: auto;
+  margin-right: 0;
+  margin-bottom: 8px;
+  /* padding: 35px; */
+  padding-left: 0;
+  padding-top: 25px;
+  padding-right: 3px;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+
+table {
+  border-spacing: 8px;
+}
+
+.keys {
+  margin: auto;
+  margin-top: 8px;
+  text-align: center;
+}
+
+td > input {
+  border-style: none;
+  width: 75px;
+  padding: 23px;
+  font-size: 22px;
+  border-radius: 50%;
+  color: #d3d3d3;
+  background-color: #333333;
+  cursor: pointer;
+  text-align: center;
+}
+
+.del {
+  text-align: center;
+  font-size: medium;
+  font-weight: 550;
+  padding: 25px;
+}
+
+.grey {
+  background-color: #a6a6a6;
+  color: black;
+}
+
+.orange {
+  background-color: #ff9501;
+  color: white;
+}
+
+.zero {
+  width: 150px;
+  border-radius: 50px;
+}
