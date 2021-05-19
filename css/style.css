@@ -60,6 +60,7 @@ td > input {
   background-color: #333333;
   cursor: pointer;
   text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .del {
